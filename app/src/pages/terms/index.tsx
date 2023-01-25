@@ -1,26 +1,24 @@
 import { Container } from "@/ui/Container";
-import { Header } from "@/ui/Header";
 
 const Terms: React.FC = () => {
     return <>
-        <Header />
         <Container>
             <div className="place-self-center mr-auto lg:col-span-12">
                 <p className="text-4xl text-white py-4">
                     利用規約
                 </p>
-                <p className="text-md text-white">
+                <div className="text-md text-white">
                     この利用規約（以下、「本規約」といいます。）は、当サービス運営者がKingBulk(以下、本サービス）の利用条件を定めるものです。ユーザーの皆さまは、本規約に従って、本サービスをご利用いただきます。
                     <h2 className="mt-6 text-xl font-bold">1. 適用</h2>
-                    <p className="py-2">
+                    <div className="py-2">
                         <ol className="list-inside list-decimal indent-3">
                             <li>本規約は、ユーザーと当サービス運営者との間の本サービスの利用に関わる一切の関係に適用されるものとします。</li>
                             <li>当サービス運営者は本サービスに関し、本規約のほか、ご利用にあたってのルール等、各種の定め（以下、「個別規定」といいます。）をすることがあります。これら個別規定はその名称のいかんに関わらず、本規約の一部を構成するものとします。</li>
                             <li>本規約の規定が前条の個別規定の規定と矛盾する場合には、個別規定において特段の定めなき限り、個別規定の規定が優先されるものとします。</li>
                         </ol>
-                    </p>
+                    </div>
                     <h2 className="mt-6 text-xl font-bold">2. 利用登録</h2>
-                    <p className="py-2">
+                    <div className="py-2">
                         <ol className="list-inside list-decimal indent-3">
                             <li>本サービスにおいては、登録希望者が本規約に同意の上、当サービス運営者の定める方法によって利用登録を申請し、当サービス運営者がこれを承認することによって、利用登録が完了するものとします。</li>
                             <li>利用登録の申請者に以下の事由があると判断した場合、当サービス運営者は利用登録の申請を承認しないことがあり、その理由については一切の開示義務を負わないものとします。</li>
@@ -30,24 +28,24 @@ const Terms: React.FC = () => {
                                 <li>その他、当サービス運営者が利用登録を相当でないと判断した場合</li>
                             </ol>
                         </ol>
-                    </p>
+                    </div>
                     <h2 className="mt-6 text-xl font-bold">3. ユーザーIDおよびパスワードの管理</h2>
-                    <p className="py-2">
+                    <div className="py-2">
                         <ol className="list-inside list-decimal indent-3">
                             <li>ユーザーは、自己の責任において、本サービスのユーザーIDおよびパスワードを適切に管理するものとします。</li>
                             <li>ユーザーは、いかなる場合にも、ユーザーIDおよびパスワードを第三者に譲渡または貸与し、もしくは第三者と共用することはできません。当サービス運営者は、ユーザーIDとパスワードの組み合わせが登録情報と一致してログインされた場合には、そのユーザーIDを登録しているユーザー自身による利用とみなします。</li>
                             <li>ユーザーID及びパスワードが第三者によって使用されたことによって生じた損害は、当サービス運営者に故意又は重大な過失がある場合を除き、当サービス運営者は一切の責任を負わないものとします。</li>
                         </ol>
-                    </p>
+                    </div>
                     <h2 className="mt-6 text-xl font-bold">4. 利用料金および支払方法</h2>
-                    <p className="py-2">
+                    <div className="py-2">
                         <ol className="list-inside list-decimal indent-3">
                             <li>ユーザーは、本サービスの有料部分の対価として、当サービス運営者が別途定め、本ウェブサイトに表示する利用料金を、当サービス運営者が指定する方法により支払うものとします。</li>
                         </ol>
-                    </p>
+                    </div>
 
                     <h2 className="mt-6 text-xl font-bold">5. 禁止事項</h2>
-                    <p className="py-2">
+                    <div className="py-2">
                         <ol className="list-inside list-decimal indent-3">
                             <li>ユーザーは、本サービスの利用にあたり、以下の行為をしてはなりません。</li>
                             <ol className="list-inside list-decimal indent-6">
@@ -67,11 +65,11 @@ const Terms: React.FC = () => {
                                 <li>その他、当サービス運営者が不適切と判断する行為</li>
                             </ol>
                         </ol>
-                    </p>
+                    </div>
 
 
                     <h2 className="mt-6 text-xl font-bold">6. 本サービスの提供の停止等</h2>
-                    <p className="py-2">
+                    <div className="py-2">
                         <ol className="list-inside list-decimal indent-3">
                             <li>当サービス運営者は、以下のいずれかの事由があると判断した場合、ユーザーに事前に通知することなく本サービスの全部または一部の提供を停止または中断することができるものとします。</li>
                             <ol className="list-inside list-decimal indent-6">
@@ -83,10 +81,10 @@ const Terms: React.FC = () => {
                             <li>当サービス運営者は、本サービスの提供の停止または中断により、ユーザーまたは第三者が被ったいかなる不利益または損害についても、一切の責任を負わないものとします。
                             </li>
                         </ol>
-                    </p>
+                    </div>
 
                     <h2 className="mt-6 text-xl font-bold">7. 利用制限および登録抹消</h2>
-                    <p className="py-2">
+                    <div className="py-2">
                         <ol className="list-inside list-decimal indent-3">
                             <li>当サービス運営者は、ユーザーが以下のいずれかに該当する場合には、事前の通知なく、ユーザーに対して、本サービスの全部もしくは一部の利用を制限し、またはユーザーとしての登録を抹消することができるものとします。</li>
                             <ol className="list-inside list-decimal indent-6">
@@ -99,42 +97,42 @@ const Terms: React.FC = () => {
                             </ol>
                             <li>当サービス運営者は、本条に基づき当サービス運営者が行った行為によりユーザーに生じた損害について、一切の責任を負いません。</li>
                         </ol>
-                    </p>
+                    </div>
 
                     <h2 className="mt-6 text-xl font-bold">8. 退会</h2>
-                    <p className="py-2">
+                    <div className="py-2">
                         <ol className="list-inside list-decimal indent-3">
                             <li>会員登録済みのユーザーは、当サービス運営者の定める退会手続により、本サービスから退会できるものとします。</li>
                         </ol>
-                    </p>
+                    </div>
 
                     <h2 className="mt-6 text-xl font-bold">9. 保証の否認および免責事項</h2>
-                    <p className="py-2">
+                    <div className="py-2">
                         <ol className="list-inside list-decimal indent-3">
                             <li>当サービス運営者は、本サービスに事実上または法律上の瑕疵（安全性、信頼性、正確性、完全性、有効性、特定の目的への適合性、セキュリティなどに関する欠陥、エラーやバグ、権利侵害などを含みます。）がないことを明示的にも黙示的にも保証しておりません。</li>
                             <li>当サービス運営者は、本サービスに起因してユーザーに生じたあらゆる損害について、当サービス運営者の故意又は重過失による場合を除き、一切の責任を負いません。ただし、本サービスに関する当サービス運営者とユーザーとの間の契約（本規約を含みます。）が消費者契約法に定める消費者契約となる場合、この免責規定は適用されません。</li>
                             <li>前項ただし書に定める場合であっても、当サービス運営者は、当サービス運営者の過失（重過失を除きます。）による債務不履行または不法行為によりユーザーに生じた損害のうち特別な事情から生じた損害（当サービス運営者またはユーザーが損害発生につき予見し、または予見し得た場合を含みます。）について一切の責任を負いません。また、当サービス運営者の過失（重過失を除きます。）による債務不履行または不法行為によりユーザーに生じた損害の賠償は、ユーザーから当該損害が発生した月に受領した利用料の額を上限とします。</li>
                             <li>当サービス運営者は、本サービスに関して、ユーザーと他のユーザーまたは第三者との間において生じた取引、連絡または紛争等について一切責任を負いません。</li>
                         </ol>
-                    </p>
+                    </div>
 
                     <h2 className="mt-6 text-xl font-bold">10. サービス内容の変更等</h2>
-                    <p className="py-2">
+                    <div className="py-2">
                         <ol className="list-inside list-decimal indent-3">
                             <li>当サービス運営者は、ユーザーへの事前の告知をもって、本サービスの内容を変更、追加または廃止することがあり、ユーザーはこれを承諾するものとします。</li>
                         </ol>
-                    </p>
+                    </div>
 
                     <h2 className="mt-6 text-xl font-bold">10. 利用規約の変更</h2>
-                    <p className="py-2">
+                    <div className="py-2">
                         <ol className="list-inside list-decimal indent-3">
                             <li>当サービス運営者は以下の場合には、ユーザーの個別の同意を要せず、本規約を変更することができるものとします。</li>
 
                         </ol>
-                    </p>
+                    </div>
 
                     <h2 className="mt-6 text-xl font-bold">10. サービス内容の変更等</h2>
-                    <p className="py-2">
+                    <div className="py-2">
                         <ol className="list-inside list-decimal indent-3">
                             <li>当サービス運営者は、ユーザーへの事前の告知をもって、本サービスの内容を変更、追加または廃止することがあり、ユーザーはこれを承諾するものとします。</li>
                             <ol className="list-inside list-decimal indent-3">
@@ -143,42 +141,42 @@ const Terms: React.FC = () => {
                             </ol>
                             <li>当サービス運営者はユーザーに対し、前項による本規約の変更にあたり、事前に、本規約を変更する旨及び変更後の本規約の内容並びにその効力発生時期を通知します。</li>
                         </ol>
-                    </p>
+                    </div>
 
                     <h2 className="mt-6 text-xl font-bold">12. 個人情報の取扱い</h2>
-                    <p className="py-2">
+                    <div className="py-2">
                         <ol className="list-inside list-decimal indent-3">
                             <li>当サービス運営者は、本サービスの利用によって取得する個人情報については、当サービス運営者「プライバシーポリシー」に従い適切に取り扱うものとします。</li>
                         </ol>
-                    </p>
+                    </div>
 
                     <h2 className="mt-6 text-xl font-bold">13. 通知または連絡</h2>
-                    <p className="py-2">
+                    <div className="py-2">
                         <ol className="list-inside list-decimal indent-3">
                             <li>ユーザーと当サービス運営者との間の通知または連絡は、当サービス運営者の定める方法によって行うものとします。当サービス運営者は,ユーザーから,当サービス運営者が別途定める方式に従った変更届け出がない限り,現在登録されている連絡先が有効なものとみなして当該連絡先へ通知または連絡を行い,これらは,発信時にユーザーへ到達したものとみなします。
                             </li>
                         </ol>
-                    </p>
+                    </div>
 
                     <h2 className="mt-6 text-xl font-bold">14. 権利義務の譲渡の禁止</h2>
-                    <p className="py-2">
+                    <div className="py-2">
                         <ol className="list-inside list-decimal indent-3">
                             <li>ユーザーは、当サービス運営者の書面による事前の承諾なく、利用契約上の地位または本規約に基づく権利もしくは義務を第三者に譲渡し、または担保に供することはできません。</li>
                         </ol>
-                    </p>
+                    </div>
 
                     <h2 className="mt-6 text-xl font-bold">15. 準拠法・裁判管轄</h2>
-                    <p className="py-2">
+                    <div className="py-2">
                         <ol className="list-inside list-decimal indent-3">
                             <li>本規約の解釈にあたっては、日本法を準拠法とします。</li>
                             <li>本サービスに関して紛争が生じた場合には、当サービス運営者の本店所在地を管轄する裁判所を専属的合意管轄とします。</li>
                         </ol>
-                    </p>
+                    </div>
                     <h2 className="mt-6 text-xl font-bold">16. 利用規約の制定日及び改定日</h2>
                     <p className="indent-2 py-2">
                         制定：2023年1月24日
                     </p>
-                </p>
+                </div>
             </div>
 
         </Container>
