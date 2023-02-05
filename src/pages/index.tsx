@@ -14,7 +14,7 @@ export default function Home() {
       <Container>
         <>
           <div className="place-self-center mr-auto lg:col-span-7">
-            <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none md:text-5xl xl:text-6xl dark:text-white">KING BULK</h1>
+            <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none md:text-5xl xl:text-6xl text-white">KING BULK</h1>
             {/* <p className="mb-6 max-w-2xl font-light text-white lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">WIP</p> */}
             {/* <a href="#" className="inline-flex justify-center items-center py-3 px-5 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
                 Download
